@@ -10,9 +10,8 @@ from dotenv import load_dotenv
 from datetime import datetime
 
 load_dotenv()
-
-url = os.getenv("SUPABASE_URL")
-key = os.getenv("SUPABASE_KEY")
+url = os.getenv("supabase_url")
+key = os.getenv("supabase_key")
 sb: Client = create_client(url, key)
 
 def borrow_book(member_id, book_id):

@@ -36,6 +36,16 @@ This is a simple Library Management System built with Python and Supabase (Postg
    python library.py
    ```
 
+## Streamlit Frontend
+
+There is a simple Streamlit frontend in `app.py` that wraps the same functionality as the CLI.
+
+To run the Streamlit app (recommended during development):
+```powershell
+pip install -r requirements.txt
+streamlit run app.py
+```
+
 ## Usage
 - Follow the on-screen menu to perform any operation.
 - Each menu option corresponds to a specific script for modularity.
